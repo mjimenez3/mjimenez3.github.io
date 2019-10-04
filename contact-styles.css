@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-container {
+    width: 100%;
+    display: flex;
+}
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 150px;
+}
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 3%;
+}
+.link.linkedin {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: blue;
+}
+.link.github {
+    background-color: #fff;
+}
+.contact img {
+    -webkit-transition:all 1s ease;
+}
+.link.linkedin:hover,
+.link.email:hover,
+.link.github:hover {
+    -webkit-transform:scale(1.1);
+}
+.label-container {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+}
+.label {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 24px;
+}
+img.resize {
+    height: 102px;
+    width:auto;
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+}
+.menu-box {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+@media only screen and (max-width: 401px) {
+    }
+    .contact {
+        display: flex;
+}    
+    .links {
+        display: flex;
+    }
+}
